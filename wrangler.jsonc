@@ -2,8 +2,9 @@
   "$schema": "node_modules/wrangler/config-schema.json",
   "name": "lakeshoreproposalstudio",
   "compatibility_date": "2026-11-09",
+  "workers_dev": true,
   "assets": {
-    "directory": ".",
+    "directory": "./public/",
     "html_handling": "auto-trailing-slash",
     "not_found_handling": "404-page"
   }
